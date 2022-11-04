@@ -66,6 +66,10 @@ typedef enum /*: uint16_t*/ {
   eDeviceType_t_IntegratedWindowContactTree = 0x8015, // unreleased
   eDeviceType_t_LEDSpotRGBWTree = 0x8016,             // <https://shop.loxone.com/enuk/led-ceiling-spots-rgbw-global.html>
   eDeviceType_t_LEDSpotWWTree = 0x8017,               // <https://shop.loxone.com/enuk/led-ceiling-spots-ww-global.html>
+  eDeviceType_t_PowerTree = 0x8018,                   // unreleased
+  eDeviceType_t_Nano2RelayTree = 0x8019,              // <https://shop.loxone.com/enuk/nano-2-relay-tree.html>
+  eDeviceType_t_BelimoTree = 0x8020,                  // unreleased
+  eDeviceType_t_PowerSupplyAndBackup = 0x8021,        // <https://shop.loxone.com/enuk/power-supply-backup.html>
 } eDeviceType_t;
 
 /////////////////////////////////////////////////////////////////
